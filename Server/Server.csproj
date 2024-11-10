@@ -6,6 +6,11 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <RootNamespace>Server</RootNamespace>
         <UserSecretsId>cedf6f60-d968-4e55-8546-26e11d512326</UserSecretsId>
+
+        <RuntimeIdentifiers>linux-x64</RuntimeIdentifiers>
+        <EnableSdkContainerDebugging>True</EnableSdkContainerDebugging>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+        <ContainerRepository>eiparfenov/cp-hack</ContainerRepository>
     </PropertyGroup>
 
     <ItemGroup>

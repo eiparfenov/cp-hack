@@ -1,0 +1,19 @@
+version: '3'
+services:
+  backend:
+    image: eiparfenov/cp-hack
+    environment:
+      ConnectionStrings__MlService: "ml_service:5000"
+      ConnectionStrings__PostgresDb: "Host=postgres;Port=5432;Database=cp-hack-db;Username=postgres;Password=08f9d352-a042-4d9b-a186-3a787062cc76"
+      S3Options__ServiceUrl: "url к s3 сервису"
+      S3Options__BucketName: "название бакета"
+      S3Options__AccessKeyId: "id ключа доступа"
+      S3Options__SecretAccessKey: "ключ доступа"
+    ports:
+      - 8080:8080
+  postgres:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: "08f9d352-a042-4d9b-a186-3a787062cc76"
+  ml_service:
+    image: nature_ml
