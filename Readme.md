@@ -9,12 +9,12 @@
 ## Конфигурация
 Конфигурацию проекта следует осуществлять при помощи переменных окружения:
 
-S3Options__ServiceUrl - url к сервису s3;
-S3Options__BucketName - имя бакета;
-S3Options__AccessKeyId - id ключа доступа s3;
-S3Options__SecretAccessKey - секретный ключ доступа s3;
-ConnectionStrings__PostgresDb - строка подключения к postgres;
-ConnectionStrings__MlService - домен сервиса машинного обучения;
+* S3Options__ServiceUrl - url к сервису s3;
+* S3Options__BucketName - имя бакета;
+* S3Options__AccessKeyId - id ключа доступа s3;
+* S3Options__SecretAccessKey - секретный ключ доступа s3;
+* ConnectionStrings__PostgresDb - строка подключения к postgres;
+* ConnectionStrings__MlService - домен сервиса машинного обучения;
 
 ## Запуск
 Есть два варианта для локального запуска сервиса:
