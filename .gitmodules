@@ -1,0 +1,6 @@
+[submodule "NatureMinistryHack"]
+	path = NatureMinistryHack
+	url = https://github.com/Adiutant/NatureMinistryHack
+[submodule "digital_breakthrough_animals"]
+	path = digital_breakthrough_animals
+	url = https://github.com/Midnight-Knight/digital_breakthrough_animals
