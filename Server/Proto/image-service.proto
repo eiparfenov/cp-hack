@@ -1,0 +1,15 @@
+service ImageService{
+  rpc PerformImages(stream PerformImagesRequest) returns (stream PerformImagesResponse) {};
+}
+
+message PerformImagesRequest {
+  required string image_path = 1;
+  required string image_title = 2;
+  required string base64_image = 3;
+}
+
+message PerformImagesResponse {
+  required string image_path = 1;
+  required string image_title = 2;
+  required string json_from_ml = 3;
+}
