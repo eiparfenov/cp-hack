@@ -16,4 +16,4 @@ services:
     environment:
       POSTGRES_PASSWORD: "08f9d352-a042-4d9b-a186-3a787062cc76"
   ml_service:
-    image: adiuitant/nature_ml
+    image: adiutant/nature_ml
